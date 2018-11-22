@@ -1,0 +1,90 @@
+html *
+{
+    font-family      : Georgia, serif !important;
+}
+
+body
+{
+    background-color : rgb(220, 220, 110);
+}
+
+input
+{
+    font-weight      : bold;
+    background-color : rgb(200,200,100);
+    margin-bottom    : 10px;
+    border           : solid;
+    border-width     : 1px;
+    border-radius    : 10px;
+    padding          : 5px;
+}
+
+hr
+{   
+    margin-top       : 20px;
+    margin-bottom    : 20px;
+    border           : solid;
+    height           : 0px;
+    border-width     : 1;
+    border-color     : rgb(127,127,64);
+}
+
+.wide
+{
+    width            : 100%;
+}
+
+.button
+{
+    padding-right    : 20px;
+    padding-left     : 20px;
+}
+
+.button:hover
+{
+    background-color: rgb(127,127,64);
+}
+
+.box
+{
+    display          : block;
+    margin-left      : auto;
+    margin-right     : auto;
+    text-align       : left;
+    width            : 40ch;
+    border           : solid;
+    border-width     : 1px;
+    border-radius    : 10px;
+    border-color     : rgb(127,127,64);
+    padding          : 5px;
+    background-color : rgb(215,215,100);
+    margin-bottom    : 10px;
+    text-transform   : capitalize;
+    color            : inherit;
+    font-size        : 1em;
+    font-style       : initial;
+    font-weight      : normal;
+    text-decoration  : initial;
+}
+
+.error
+{
+    color            : red;
+    font-style       : italic;
+}
+
+.header
+{
+    color            : blue;
+    font-size        : 1.3em;
+    font-weight      : bold;
+    text-decoration  : underline;
+}
+
+.center 
+{
+    display          : block;
+    margin-left      : auto;
+    margin-right     : auto;
+    width            : 50%;
+}

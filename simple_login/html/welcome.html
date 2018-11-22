@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Welcome</title>
+        <link rel="icon" href="{{icon}}">
+        <link rel="stylesheet" type="text/css" href="{{textcss}}">
+        <script>
+            function resizeIframe(obj)
+            {
+                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+            }
+        </script>
+    </head>
+    <body>
+        <form class = "box" action = "" method = "post">
+            <p class = "header">Welcome</p>
+            <hr>
+            <table style = "width:100%; text-align:center;">
+                <tr>
+                    <td style = "width:50%">
+                        <input style = "width:100%;" class = "button" type = "submit" name="logout" value = "Logout">
+                    </td>
+                    <td style = "width:50%">
+                        <input style = "width:100%;" class = "button" type = "submit" name="chpassword" value = "Change password">
+                    </td> 
+                </tr>
+            </table>
+        </form>
+        <iframe width=100% frameborder="0" allowfullscreen scrolling="no" onload="resizeIframe(this)" src="{{main page}}">
+        </iframe>
+    </body>
+</html>
